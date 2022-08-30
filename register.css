@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(arkaplan.jpeg);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register-box{
+    width:420px;
+    padding:10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(94, 91, 91, 0.378), 0 6px 20px 0 rgba(125, 121, 121, 0.477);
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#formLogin{
+    margin-top:5px;
+    width:350px;
+}
+
+.button{
+    width:100%;
+    margin: 10px 0 25px 0;
+    color:white;
+    box-shadow: 0 10px 10px 0 #cdc5f5;
+    background-color:#7940d7;
+}
+
+.button:hover{
+    background:#7940d7;
+    box-shadow: none;
+    color: white;
+}
+
+span a{
+    color:#7940d7;
+    text-decoration: none;
+}
+
+span a:hover{
+    color:black;
+}
+
+.gizli{
+    display:none;
+}
+
+.zayif{
+    color:red;
+    display:block;
+
+}
+
+.guclu{
+    color:green;
+    display:block;
+
+}
